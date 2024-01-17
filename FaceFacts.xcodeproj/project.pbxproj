@@ -31,6 +31,7 @@
 		4556C3AE2B57DBB100418308 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4556C3B02B57DD3000418308 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		4556C3B22B57E5AE00418308 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
+		4556C3B62B58267100418308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +64,10 @@
 		4556C3992B56E4A500418308 /* FaceFacts */ = {
 			isa = PBXGroup;
 			children = (
+				4556C3B62B58267100418308 /* Info.plist */,
 				4556C39A2B56E4A500418308 /* FaceFactsApp.swift */,
-				4556C39C2B56E4A600418308 /* ContentView.swift */,
-				4556C3AC2B57D1EF00418308 /* PeopleView.swift */,
-				4556C3AA2B56EAA800418308 /* EditPersonView.swift */,
-				4556C3B02B57DD3000418308 /* EditEventView.swift */,
-				4556C3A82B56E76D00418308 /* Person.swift */,
-				4556C3AE2B57DBB100418308 /* Event.swift */,
-				4556C3B22B57E5AE00418308 /* Previewer.swift */,
+				4556C3B42B58255200418308 /* Views */,
+				4556C3B52B58255B00418308 /* Model */,
 				4556C39E2B56E4A600418308 /* Assets.xcassets */,
 				4556C3A02B56E4A600418308 /* Preview Content */,
 			);
@@ -83,6 +80,27 @@
 				4556C3A12B56E4A600418308 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4556C3B42B58255200418308 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4556C39C2B56E4A600418308 /* ContentView.swift */,
+				4556C3AC2B57D1EF00418308 /* PeopleView.swift */,
+				4556C3AA2B56EAA800418308 /* EditPersonView.swift */,
+				4556C3B02B57DD3000418308 /* EditEventView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4556C3B52B58255B00418308 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4556C3A82B56E76D00418308 /* Person.swift */,
+				4556C3AE2B57DBB100418308 /* Event.swift */,
+				4556C3B22B57E5AE00418308 /* Previewer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +317,7 @@
 				DEVELOPMENT_TEAM = 36J8GH24RS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +347,7 @@
 				DEVELOPMENT_TEAM = 36J8GH24RS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
