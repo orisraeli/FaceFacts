@@ -17,7 +17,7 @@ struct EditPersonView: View {
 					.textContentType(.name)
 				
 				TextField("Email address", text: $person.emailAddress)
-				//					.keyboardType(.emailAddress)
+					.keyboardType(.emailAddress)
 					.textContentType(.emailAddress)
 					.textInputAutocapitalization(.never)
 			}
